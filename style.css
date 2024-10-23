@@ -1,6 +1,6 @@
 
 
-body {
+body
     background-color: orange;
     color:white;
     font-family: Arial, sans-serif;
@@ -8,8 +8,7 @@ body {
     h1, h2, h3, p, a, span {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         font-family: Arial, sans-serif;
-    
-   }
+    }
    
    
 section{
@@ -24,3 +23,11 @@ header{
 margin: 40px;
 }
    
+.chamada-texto{
+    margin-left: 10px;
+
+
+
+
+
+}
