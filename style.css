@@ -6,6 +6,17 @@ body {
 
 }
 
+
+header {
+    font-family: Arial, sans-serif; 
+    font-size: 36px; 
+    color: brown; 
+    text-align: center; 
+    margin: 20px 0; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px white; 
+    }
+
     h1, h2, h3, p, a, span {
         text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
         -2px 0px 0px rgba(0, 0, 0, 0.5), 
@@ -15,13 +26,7 @@ body {
         margin: 15px 0;
     }
    
-    header {
-            font-family: Arial, sans-serif; /* Define a fonte Arial */
-            font-size: 36px; /* Tamanho da fonte 36px */
-            color: brown; /* Cor marrom */
-            text-align: center; /* Centraliza o texto */
-            margin: 20px 0;
-    }
+    
    
 section {
     
