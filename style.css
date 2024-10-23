@@ -1,13 +1,9 @@
-head { 
-    background-color: orange;
-    color:rgb(233, 211, 172);
-    font-family: Arial, sans-serif;
-}
 
 body {
     background-color: orange;
     color:rgb(233, 211, 172);
     font-family: Arial, sans-serif;
+
 }
 
     h1, h2, h3, p, a, span {
@@ -19,6 +15,13 @@ body {
         margin: 15px 0;
     }
    
+    header {
+            font-family: Arial, sans-serif; /* Define a fonte Arial */
+            font-size: 36px; /* Tamanho da fonte 36px */
+            color: brown; /* Cor marrom */
+            text-align: center; /* Centraliza o texto */
+            margin: 20px 0;
+    }
    
 section {
     
