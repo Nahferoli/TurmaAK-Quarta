@@ -1,14 +1,4 @@
-section{
-background-color: rgb(122, 83, 83)
-padding-bottom: 80px;
-padding-top: 80px;
-display: flex;
-justify-content: center;
-}
 
-header{
-margin: 40px;
-}
 
 body {
     background-color: orange;
@@ -21,4 +11,16 @@ body {
     
    }
    
+   
+section{
+background-color: rgb(122, 83, 83)
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+header{
+margin: 40px;
+}
    
