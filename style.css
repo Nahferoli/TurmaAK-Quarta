@@ -8,8 +8,8 @@ body {
 
     h1, h2, h3, p, a, span {
         text-shadow: 
-        -2px 0px 0px rgba(255, 165, 0, 1),  
-        2px 0px 0px rgba(255, 165, 0, 1),  
+        -2px 0px 0px rgb(243, 216, 166),  
+        2px 0px 0px rgb(236, 212, 166),  
         3px 3px 6px rgba(0, 0, 0, 0.5);     
     font-family: Arial, sans-serif;
     }
