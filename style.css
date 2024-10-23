@@ -1,22 +1,25 @@
 
 
 body {
-    background-color: orange;
-    color:white;
+    background-color: rgb(202, 136, 13);
+    color:rgb(247, 213, 182);
     font-family: Arial, sans-serif;
 }
 
     h1, h2, h3, p, a, span {
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-        font-family: Arial, sans-serif;
+        text-shadow: 
+        -2px 0px 0px rgba(255, 165, 0, 1),  
+        2px 0px 0px rgba(255, 165, 0, 1),  
+        3px 3px 6px rgba(0, 0, 0, 0.5);     
+    font-family: Arial, sans-serif;
     }
    
    
 section {
     
         background:rgb(150, 89, 89);
-        padding-bottom: 80px;
-        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-top: 40px;
         display: flex;
         justify-content: center;
 }
