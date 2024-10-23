@@ -1,4 +1,8 @@
-
+head { 
+    background-color: orange;
+    color:rgb(233, 211, 172);
+    font-family: Arial, sans-serif;
+}
 
 body {
     background-color: orange;
