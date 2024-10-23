@@ -1,17 +1,3 @@
-section {
-        background:rgb(150, 89, 89);
-        padding-bottom: 80px;
-        padding-top: 80px;
-        display: flex;
-        justify-content: center;
-}
-
-header{
-margin: 40px;
-}
-   
-.chamada-texto{
-    margin-left: 10px;
 
 
 body {
@@ -26,5 +12,19 @@ body {
     }
    
    
-    
+    section {
+        background:rgb(150, 89, 89);
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+}
+
+header{
+margin: 40px;
+}
+   
+.chamada-texto{
+    margin-left: 10px;
+
 }
