@@ -1,4 +1,40 @@
+head {
+    background-color: orange;
+            color: rgb(233, 211, 172);
+            font-family: Arial, sans-serif;
+        }
 
+        h1 {
+            font-family: Arial, sans-serif; 
+            font-size: 36px; 
+            color: brown; 
+            text-align: center; 
+            margin: 20px 0; 
+        }
+
+        h2, h3, p, a, span {
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+            margin: 15px 0;
+        }
+
+        section {
+            background: rgb(150, 89, 89);
+            padding-bottom: 40px;
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center; 
+        }
+
+        header {
+            margin: 40px;
+        }
+
+        .spaced-div {
+            margin-bottom: 20px;
+}
 
 body {
     background-color: orange;
