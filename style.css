@@ -6,7 +6,9 @@ display: flex;
 justify-content: center;
 }
 
-
+header{
+margin: 40px;
+}
 
 body {
     background-color: orange;
