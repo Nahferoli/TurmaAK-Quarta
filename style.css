@@ -22,7 +22,9 @@ section {
         padding-bottom: 40px;
         padding-top: 40px;
         display: flex;
+        flex-direction: column; 
         justify-content: center;
+        align-items: center; 
 }
 
 header{
