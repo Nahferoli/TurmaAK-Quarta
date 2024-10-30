@@ -39,11 +39,28 @@ img {
     display: flex;
     overflow-x: auto;
     gap: 10px;
+    padding-bottom: 10px; /
+    scroll-snap-type:x mandatory;
 }
 
+.categoria-video::-webkit-scrollbar {
+    height: 8px; /* Define a altura da barra de rolagem */
+}
+
+.categoria-video::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.categoria-video::-webkit-scrollbar-thumb {
+    background: #888; /
+}
+
+.categoria-video::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
 .chamada-texto {
     text-align: center;  
     margin: 0 auto;     
     max-width: 800px;    
 }  
-}
+
