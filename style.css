@@ -39,12 +39,12 @@ img {
     display: flex;
     overflow-x: auto;
     gap: 10px;
-    padding-bottom: 10px; /
+    padding-bottom: 10px;
     scroll-snap-type:x mandatory;
 }
 
 .categoria-video::-webkit-scrollbar {
-    height: 8px; /* Define a altura da barra de rolagem */
+    height: 8px;
 }
 
 .categoria-video::-webkit-scrollbar-track {
