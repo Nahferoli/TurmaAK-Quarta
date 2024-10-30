@@ -9,7 +9,7 @@ body {
 
 header {
     font-family: Arial, sans-serif; 
-    font-size: 56px; 
+    font-size: 46px; 
     color: brown; 
     text-align: center; 
     margin: 20px 0; 
@@ -24,6 +24,7 @@ header {
         3px 3px 6px rgba(0, 0, 0, 0.5); 
         font-family: Arial, sans-serif;
         margin: 15px 0;
+        font-size: 36px;
     }
    
     
