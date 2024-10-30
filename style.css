@@ -51,7 +51,7 @@ img{
     height: 200px;
 }
 
-.categoria-videos{
+.categoria-video{
     display:flex;
     overflow-x: auto;
     gap: 10px;
