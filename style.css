@@ -37,10 +37,11 @@ img {
 
 .categoria-video {
     display: flex;
-    overflow-x: auto;
+    overflow-x: auto; 
     gap: 10px;
     padding-bottom: 10px;
-    scroll-snap-type:x mandatory;
+    scroll-snap-type: x mandatory;
+    width: 100%;  
 }
 
 .categoria-video::-webkit-scrollbar {
