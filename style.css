@@ -42,6 +42,16 @@ section {
         justify-content: center;
         align-items: center; 
 }
+section section class="categoria-video"{
+    
+    background:rgb(150, 89, 89);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
 
 header{
 margin: 40px;
