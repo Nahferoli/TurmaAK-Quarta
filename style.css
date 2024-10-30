@@ -52,17 +52,17 @@ img{
 
 .categoria-video{
     display:flex;
-    overflow-x: auto;
-    gap: 10px;
-
+    overflow-x:auto;
+    gap:10px;
 }
+
 .chamada-texto{
-    margin-left: 10px;
+    margin-left:10px;
 
 }
 
 .chamada-texto {
-    text-align: center;  
-    margin: 0 auto;     
-    max-width: 800px;    
+    text-align:center;  
+    margin:0auto;     
+    max-width:800px;    
 }
