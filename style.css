@@ -15,9 +15,11 @@ header {
     margin: 20px 0; 
     font-weight: bold; 
     text-shadow: 2px 2px 4px white; 
+
     }
 
     h1, h2, h3, p, a, span {
+
         text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
         -2px 0px 0px rgba(0, 0, 0, 0.5), 
         2px 0px 0px rgba(0, 0, 0, 0.5),   
@@ -25,6 +27,7 @@ header {
         font-family: Arial, sans-serif;
         margin: 15px 0;
         font-size: 36px;
+    
     }
    
     
