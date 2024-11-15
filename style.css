@@ -1,7 +1,6 @@
-/* Importação da fonte Sour Gummy */
+
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
 
-/* Estilo geral para o corpo */
 body {
     background-color: orange;
     color: rgb(233, 211, 172);
@@ -10,7 +9,6 @@ body {
     padding: 0;
 }
 
-/* Estilo para o cabeçalho */
 header {
     font-family: 'Sour Gummy', sans-serif;
     font-size: 36px;
@@ -24,13 +22,13 @@ header {
     border-radius: 10px;
 }
 
-/* Estilo para a seção principal */
+
 section {
     padding: 40px 20px;
     text-align: center;
 }
 
-/* Estilo para os títulos e parágrafos dentro da chamada de texto */
+
 .chamada-texto h1, .chamada-texto p {
     margin: 15px 0;
     font-family: 'Sour Gummy', sans-serif;
@@ -38,7 +36,6 @@ section {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilo para o container de vídeos com rolagem */
 .video-container {
     display: flex;
     flex-wrap: nowrap;
@@ -50,7 +47,6 @@ section {
     padding-bottom: 20px;
 }
 
-/* Estilo para cada vídeo dentro do container */
 .video {
     flex: 0 0 calc(50% - 20px);
     height: 315px;
@@ -60,7 +56,6 @@ section {
     justify-content: center;
 }
 
-/* Estilo do botão de navegação */
 button {
     padding: 10px 20px;
     background-color: #af874c;
@@ -72,12 +67,12 @@ button {
     border-radius: 5px;
 }
 
-/* Estilo do botão quando é clicado */
+
 button:hover {
-    background-color: #45a049;
+    background-color: #a07145;
 }
 
-/* Estilo para as imagens dos vídeos */
+
 .categoria-video a {
     display: block;
     width: 200px;
@@ -90,7 +85,6 @@ button:hover {
     border: 3px solid brown;
 }
 
-/* Estilo para a rolagem horizontal dos vídeos */
 .categoria-video {
     display: flex;
     overflow-x: auto;
@@ -102,7 +96,6 @@ button:hover {
     scrollbar-width: thin;
 }
 
-/* Estilo da barra de rolagem */
 .categoria-video::-webkit-scrollbar {
     height: 8px;
 }
