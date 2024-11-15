@@ -1,3 +1,4 @@
+/* Estilo geral para o corpo */
 body {
     background-color: orange;
     color: rgb(233, 211, 172);
@@ -6,9 +7,10 @@ body {
     padding: 0;
 }
 
+/* Estilo para o cabeçalho */
 header {
     font-family: 'Lora', serif;
-    font-size: 36px;
+    font-size: 36px; /* Tamanho do título reduzido */
     color: brown;
     text-align: center;
     margin: 20px 0;
@@ -19,11 +21,13 @@ header {
     border-radius: 10px;
 }
 
+/* Estilo para a seção principal */
 section {
     padding: 40px 20px;
     text-align: center;
 }
 
+/* Estilo para os títulos e parágrafos dentro da chamada de texto */
 .chamada-texto h1, .chamada-texto p {
     margin: 15px 0;
     font-family: 'Roboto', sans-serif;
@@ -31,18 +35,19 @@ section {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Estilo para o container de vídeos com rolagem */
 .video-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
+    flex-wrap: nowrap; /* Impede que os vídeos quebrem para a próxima linha */
+    overflow-x: auto; /* Habilita a rolagem horizontal */
     gap: 20px;
-    padding: 20px;
-    scroll-snap-type: x mandatory; 
+    scroll-snap-type: x mandatory; /* Faz a rolagem suave para os vídeos */
     width: 100%;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-/* Estilo para cada vídeo individualmente */
+
 .video {
     flex: 0 0 calc(50% - 20px); 
     height: 315px;
@@ -64,39 +69,42 @@ button {
     border-radius: 5px;
 }
 
+
 button:hover {
     background-color: #45a049;
 }
 
+
 .categoria-video a {
     display: block;
-    width: 200px;
+    width: 200px; 
     margin: 0 auto;
 }
 
 .categoria-video img {
-    width: 100%; /
+    width: 100%; 
     border-radius: 15px; 
     border: 3px solid brown; 
 }
 
+
 .categoria-video {
     display: flex;
     overflow-x: auto; 
-    gap: 10px;
     padding-bottom: 10px;
-    scroll-snap-type: x mandatory; 
+    scroll-snap-type: x mandatory; /
     width: 100%;
     margin: 0 auto; 
     scrollbar-width: thin; 
 }
+
 
 .categoria-video::-webkit-scrollbar {
     height: 8px; 
 }
 
 .categoria-video::-webkit-scrollbar-track {
-    background: #792a2a;
+    background: #f1f1f1;
 }
 
 .categoria-video::-webkit-scrollbar-thumb {
@@ -105,3 +113,4 @@ button:hover {
 
 .categoria-video::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
