@@ -8,15 +8,14 @@ body {
 }
 
 header {
-    font-family: // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 400 to 700
-    
-    .edu-au-vic-wa-nt-pre-<uniquifier> {
-      font-family: "Edu AU VIC WA NT Pre", cursive;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-    }
+    font-family:.sour-gummy-<uniquifier> {
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      
     font-size: 36px; 
     color: brown;
     text-align: center;
