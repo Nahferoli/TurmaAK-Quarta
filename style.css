@@ -1,7 +1,7 @@
 body {
     background-color: orange;
     color: rgb(233, 211, 172);
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0; 
     padding: 0; 
 }
@@ -21,7 +21,7 @@ header {
 
 h1, h2, h3, p, a, span {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 15px 0;
     font-size: 36px;
     padding: 10px; 
