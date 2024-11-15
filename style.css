@@ -1,4 +1,4 @@
-/* Estilo geral para o corpo */
+
 body {
     background-color: orange;
     color: rgb(233, 211, 172);
@@ -7,10 +7,10 @@ body {
     padding: 0;
 }
 
-/* Estilo para o cabeçalho */
+
 header {
     font-family: 'Lora', serif;
-    font-size: 36px; /* Tamanho do título reduzido */
+    font-size: 36px; 
     color: brown;
     text-align: center;
     margin: 20px 0;
@@ -21,13 +21,13 @@ header {
     border-radius: 10px;
 }
 
-/* Estilo para a seção principal */
+
 section {
     padding: 40px 20px;
     text-align: center;
 }
 
-/* Estilo para os títulos e parágrafos dentro da chamada de texto */
+
 .chamada-texto h1, .chamada-texto p {
     margin: 15px 0;
     font-family: 'Roboto', sans-serif;
@@ -35,13 +35,13 @@ section {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilo para o container de vídeos com rolagem */
+
 .video-container {
     display: flex;
-    flex-wrap: nowrap; /* Impede que os vídeos quebrem para a próxima linha */
-    overflow-x: auto; /* Habilita a rolagem horizontal */
+    flex-wrap: nowrap;
+    overflow-x: auto; 
     gap: 20px;
-    scroll-snap-type: x mandatory; /* Faz a rolagem suave para os vídeos */
+    scroll-snap-type: x mandatory; 
     width: 100%;
     margin-bottom: 20px;
     padding-bottom: 20px;
