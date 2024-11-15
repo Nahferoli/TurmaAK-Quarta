@@ -2,16 +2,21 @@ body {
     background-color: orange;
     color: rgb(233, 211, 172);
     font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
 }
 
 header {
-    font-family: Arial, sans-serif; 
-    font-size: 46px; 
-    color: brown; 
-    text-align: center; 
-    margin: 20px 0; 
-    font-weight: bold; 
+    font-family: Arial, sans-serif;
+    font-size: 46px;
+    color: brown;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
     text-shadow: 2px 2px 4px white;
+    border: 3px solid brown; 
+    padding: 10px; 
+    border-radius: 10px;
 }
 
 h1, h2, h3, p, a, span {
@@ -19,6 +24,8 @@ h1, h2, h3, p, a, span {
     font-family: Arial, sans-serif;
     margin: 15px 0;
     font-size: 36px;
+    padding: 10px; 
+    border-bottom: 2px solid brown; 
 }
 
 section {
@@ -26,22 +33,29 @@ section {
     padding-bottom: 40px;
     padding-top: 40px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid darkred; 
+    margin: 20px;
+    border-radius: 10px; 
 }
 
 img {
     height: 200px;
+    border: 2px solid #fff; 
+    border-radius: 10px; 
 }
 
 .categoria-video {
     display: flex;
-    overflow-x: auto; 
+    overflow-x: auto;
     gap: 10px;
     padding-bottom: 10px;
     scroll-snap-type: x mandatory;
-    width: 100%;  
+    width: 100%;
+    border: 2px solid #888; 
+    border-radius: 8px; 
 }
 
 .categoria-video::-webkit-scrollbar {
@@ -53,15 +67,18 @@ img {
 }
 
 .categoria-video::-webkit-scrollbar-thumb {
-    background: #888; /
+    background: #888;
 }
 
 .categoria-video::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
-.chamada-texto {
-    text-align: center;  
-    margin: 0 auto;     
-    max-width: 800px;    
-}  
 
+.chamada-texto {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 2px solid #333; /* Borda em torno do texto */
+    border-radius: 10px; /* Bordas arredondadas */
+}
