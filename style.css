@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
 
 body {
@@ -29,7 +28,8 @@ section {
 }
 
 
-.chamada-texto h1, .chamada-texto p {
+.chamada-texto h1,
+.chamada-texto p {
     margin: 15px 0;
     font-family: 'Sour Gummy', sans-serif;
     font-size: 36px;
@@ -110,6 +110,9 @@ button:hover {
 
 .categoria-video::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+.categoria-videos img:hover {
     border: 5px solid rgb(253, 187, 44);
     opacity: 1.0;
 }
