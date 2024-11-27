@@ -106,6 +106,10 @@ button:hover {
     background: #555;
 }
 
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
 .categoria-videos img:hover {
     border: 5px solid rgb(253, 187, 44);
     opacity: 1.0;
