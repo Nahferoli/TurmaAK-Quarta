@@ -110,4 +110,6 @@ button:hover {
 
 .categoria-video::-webkit-scrollbar-thumb:hover {
     background: #555;
+    border: 5px solid rgb(253, 187, 44);
+    opacity: 1.0;
 }
